@@ -1,8 +1,20 @@
 /**
- * 
+ * @file "BasePortlet.js" Part of group-office-portlet-display-panel
+ *
+ * @license MIT
+ * @author Richard Dodd <richard.dodd@theitpartnership.co>
+ * @version 0.0.1
+ */
+
+/**
+ * @class GO.panel.BasePortlet
+ * @extends Ext.ux.Portlet
+ *
+ * This is the base portlet class for using within a PortletDisplayPanel.
+ * It handles template rendering on render and refresh
  */
 GO.panel.BasePortlet = Ext.extend(Ext.ux.Portlet, {
-	/*
+	/**
 	 * The template for the portal content, either a string,
 	 * an array of strings or an XTemplate
 	 * 

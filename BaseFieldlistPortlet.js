@@ -1,5 +1,15 @@
-/*
- * 
+/**
+ * @file "BaseFieldlistPortlet" Part of group-office-portlet-display-panel
+ *
+ * @license MIT
+ * @author Richard Dodd <richard.dodd@theitpartnership.co>
+ * @version 0.0.1
+ */
+
+
+/**
+ * @class GO.panel.BaseFieldslistPortlet
+ * @extends GO.panel.BasePortlet
  */
 GO.panel.BaseFieldlistPortlet = Ext.extend(GO.panel.BasePortlet, {
 	/**

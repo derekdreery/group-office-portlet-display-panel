@@ -1,5 +1,5 @@
 /**
- * PortletDislpayPanel.js - part of go-display-portlet
+ * @file "PortletDislpayPanel.js" Part of group-office-portlet-display-panel
  * 
  * @license MIT
  * @author Richard Dodd <richard.dodd@theitpartnership.co>
@@ -42,7 +42,7 @@ GO.panel.PortletDisplayPanel = Ext.extend(Ext.Panel, {
 	 */
 	portletOpts: {},
 	
-	/*
+	/**
 	 * @private
 	 */
 	model_id: 0,
