@@ -125,6 +125,6 @@ fieldData: [{
 				});
 			}
 		});
-		GO.hr.BaseFieldlistPortlet.superclass.initComponent.call(this);
+		GO.panel.BaseFieldlistPortlet.superclass.initComponent.call(this);
 	}
 });

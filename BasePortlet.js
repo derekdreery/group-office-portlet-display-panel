@@ -49,7 +49,7 @@ GO.panel.BasePortlet = Ext.extend(Ext.ux.Portlet, {
 			frame: false,
 			border: false
 		}, config);
-		GO.hr.BasePortlet.superclass.constructor.call(this, config);
+		GO.panel.BasePortlet.superclass.constructor.call(this, config);
 	},
 
 	/**
@@ -64,7 +64,7 @@ GO.panel.BasePortlet = Ext.extend(Ext.ux.Portlet, {
 		if(!this.tpl.compile) {
 			this.tpl = new Ext.XTemplate(this.tpl);
 		}
-		GO.hr.BasePortlet.superclass.onRender.call(this, ct, position);
+		GO.panel.BasePortlet.superclass.onRender.call(this, ct, position);
 		this.tpl.overwrite(this.body, this.emptyValuesObject || {});
 	},
 
